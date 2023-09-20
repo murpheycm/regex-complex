@@ -1,49 +1,54 @@
-# Title (replace with your title)
+# Regex for Phone Number Validation (North America)
 
-Introductory paragraph (replace this with your text)
+A GIST tutorial that explains how the regular expression, or regex, for phone number validation functions by breaking down each part of the expression and describing what it does. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will focus on the following North American phone number validation regex:
+>
+> /^\d{3}-\d{3}-\d{4}$/
+>
+The tutorial will cover anchors, quantifiers, character escapes, metacharacters, boundaries, and escape sequences.
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
+- [Metacharacters](#metacharacters)
+- [Character escapes](#characters)
 - [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
 ### Anchors
+Regex: /^\d{3}-\d{3}-\d{4}$/
+> `^` at the beginning and `$` at the end are anchors.<br>
+> `^` asserts the start of a line.<br>
+`$` asserts the end of a line.<br>
+Together, `^` and `$` ensure that the entire string matches the pattern, not just a portion of it.
 
 ### Quantifiers
+Regex: /^\d{3}-\d{3}-\d{4}$/
+> `\d{3}` matches exactly three digits. <br>
+> `\d{4}` matches exactly four digits. <br>
+> These quantifiers specify the number of times a character or group should be repeated.
 
-### OR Operator
+### Metacharacters
+Regex: /^\d{3}-\d{3}-\d{4}$/
+> `-` is a metacharacter. <br>
+> `-` matches the hyphen character literally. <br>
+In this regex, hyphens are used as separators between groups of digits.
 
-### Character Classes
-
-### Flags
-
-### Grouping and Capturing
-
-### Bracket Expressions
-
-### Greedy and Lazy Match
+### Characters: Escapes
+Regex: /^\d{3}-\d{3}-\d{4}$/
+> `\d` is a character escape. <br>
+> `\d` matches any digit (0-9). <br>
+The `\d` escape simplifies the pattern by matching any digit character.
 
 ### Boundaries
 
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Mackenzie M. - A UofR Full-Stack Web Development coding bootcamp student. <br>
+Github Project Repository - https://github.com/murpheycm/regex-complex
