@@ -8,7 +8,15 @@ This tutorial will focus on the following North American phone number validation
 >
 > /^\d{3}-\d{3}-\d{4}$/
 >
-The tutorial will cover anchors, quantifiers, character escapes, metacharacters, boundaries, and escape sequences.
+The tutorial will cover anchors, quantifiers, character escapes, and metacharacters.
+
+This regex is designed to match a specific pattern:
+
+> It must start at the beginning of a line (^).<br>
+> It should have exactly three digits, followed by a hyphen (\d{3}-).<br>
+> Then, it should have exactly three more digits and another hyphen (\d{3}-).<br>
+> Finally, it should end with exactly four digits (\d{4}).<br>
+> It must end at the end of a line ($).<br>
 
 ## Table of Contents
 
@@ -16,7 +24,7 @@ The tutorial will cover anchors, quantifiers, character escapes, metacharacters,
 - [Quantifiers](#quantifiers)
 - [Metacharacters](#metacharacters)
 - [Character escapes](#characters)
-- [Boundaries](#boundaries)
+
 
 ## Regex Components
 
@@ -45,7 +53,7 @@ Regex: /^\d{3}-\d{3}-\d{4}$/
 > `\d` matches any digit (0-9). <br>
 The `\d` escape simplifies the pattern by matching any digit character.
 
-### Boundaries
+
 
 
 ## Author
