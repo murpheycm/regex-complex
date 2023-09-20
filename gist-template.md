@@ -1,6 +1,6 @@
 # Regex for Phone Number Validation (North America)
 
-A GIST tutorial that explains how the regular expression, or regex, for phone number validation functions by breaking down each part of the expression and describing what it does. 
+A Github gist tutorial that explains how the regular expression, or regex, for phone number validation functions by breaking down each part of the expression and describing what it does. 
 
 ## Summary
 
