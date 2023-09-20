@@ -5,9 +5,10 @@ A GIST tutorial that explains how the regular expression, or regex, for phone nu
 ## Summary
 
 This tutorial will focus on the following North American phone number validation regex:
->
-> /^\d{3}-\d{3}-\d{4}$/
->
+> 
+> Regex: /^\d{3}-\d{3}-\d{4}$/ <br>
+> Example: ###-###-#### <br>
+
 The tutorial will cover anchors, quantifiers, character escapes, and metacharacters.
 
 This regex is designed to match a specific pattern:
